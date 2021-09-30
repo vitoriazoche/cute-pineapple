@@ -1,6 +1,8 @@
 ### Pineapple Todo App
 é um aplicativo desktop desenvolvido 100% em HTML e CSS, a ideia original surgiu do repositório da <a href="https://github.com/daniellesantana/to-do-pineapple">Danielle Santana</a>
 
+<img src="https://github.com/vitoriazoche/cute-pineapple/blob/master/img/tela.png?raw=true" width="500px;">
+
 Nele constam as opções de:
 * adicionar tarefa
 * remover tarefa
