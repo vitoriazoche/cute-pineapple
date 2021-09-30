@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> pineapple - Lista de tarefas</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        
+        <link rel="shortcut icon" href="images/pineapple.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <!-- Fonts utilizadas-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <img src="assets/img/abaxi1.png" class="abacaxi" alt="" />
+            
+    
+            <div id="addTask" class="header">
+                <h1>Crie suas tarefas </h1>
+
+                <input type="text" id="myTask" placeholder="Digite a tarefa">
+                <span onclick="newTask()" class="addBtn">Add</span>
+            </div>
+              
+              <ul id="myList">
+                <li>Sweet pineapple</li>
+                <li class="checked">Cute title</li>
+              </ul>
+
+              <footer>
+                  <p> Desenvolvido com amor ♥ pela <a href="https://github.com/vitoriazoche">@vitoriazp</a></p>
+              </footer>
+              <script src="funcoes.js"></script>
+    </body>
+</html>
