@@ -1,0 +1,18 @@
+{
+    "name": "Pineapple todo list",
+    "description": "mini lista de tarefas com temática de abacaxi",
+    "version": "3.0",
+    "browser_action":{
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "48": "caxi48.png",
+        "128": "caxi128.png"
+    },
+
+    "background":{
+        "service_worker": "adicionar.js"
+    },
+
+    "manifest_version":2
+}
